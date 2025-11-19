@@ -1,0 +1,11 @@
+# Arduino IDE temporary files
+*.elf
+*.hex
+*.ino.cpp
+*.ino.d
+build/
+.arduino/
+
+# System files
+.DS_Store
+Thumbs.db
