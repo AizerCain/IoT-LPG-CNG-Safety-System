@@ -3,8 +3,7 @@
 This folder contains the circuit diagrams and wiring layouts for the Gas Leakage Detection System.
 
 ## Files Included
-* `wiring_diagram.png`: A Visual Schematic diagram of connections.
-* `circuit_diagram.png`: (To be added) Snapshot of the Fritzing/Tinkercad design.
+* `circuit_diagram.png`: Snapshot of the Tinkercad design.
 
 ## Logic Diagram
 
@@ -49,3 +48,4 @@ graph LR
 1.  **Common Ground:** It is mandatory to connect the Ground (GND) of the external power supply to the Ground (GND) of the Arduino. Without this, the GSM module will not communicate.
 
 2.  **GSM Power:** Do not power the GSM module directly from the Arduino's 5V pin; it cannot supply enough current during network registration.
+
